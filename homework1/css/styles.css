@@ -39,7 +39,7 @@ a{
   padding: 40px;
   color: white;
   column-count: 2;
-  
+
 }
 #hobbies{
   padding: 40px;
@@ -49,13 +49,39 @@ a{
   column-gap: 0;
   background-color: #16b1b5
 }
-div{
+.work {
   break-inside: avoid;
 }
 img{
   width: 100%;
   display: block;
 }
+
+.image {
+  position: relative;
+  background-color: #16b1b5;
+}
+.image
+p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #16b1b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+div:hover p {
+  opacity: 1;
+}
+
 footer{
   text-align: center;
   padding-bottom: 40px;
