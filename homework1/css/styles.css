@@ -68,14 +68,15 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #16b1b5;
+  background-color: rgba(22,177,181,.9);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 24px;
+  font-weight: 200;
   color: white;
   opacity: 0;
-  transition: opacity 1s;
+  transition: opacity 1.5s;
 }
 
 div:hover p {
